@@ -1,0 +1,20 @@
+@media (max-width: 480px) {
+	body {
+		font-size: 85% !important;
+	}
+	h1.display-4 {
+		font-size: 250% !important;
+	}
+	p.lead {
+		font-size: 130% !important;
+	}
+	a.navbar-brand i.fa {
+		font-size: 100% !important;
+	}
+	a[role="button"] {
+		font-size: 100% !important;
+	}
+	a.link {
+		font-size: 110% !important;
+	}
+}

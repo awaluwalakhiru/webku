@@ -1,0 +1,35 @@
+@media (max-width : 576px) {
+  .jumbotron p, .card-body, .quote p, footer, .navbar-nav, .navbar-brand, .navbar-toggler-icon {
+    font-size: 14px;
+  }
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .card .fa-3x {
+  	font-size: 250%;
+  }
+  .gambar img {
+    width: 50%;
+  }
+  video {
+    width: 90% !important; 
+  }
+  .fa-3x {
+    padding: 10px;
+  }
+}
+h2 {
+  text-align: center;
+}
+.fa-3x {
+  padding: 10px;
+}
+.img-thumbnail:hover {
+  opacity: 0.5;
+}
+.jumbotron {
+  background-image: url(img/space.jpg);
+}

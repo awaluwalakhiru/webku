@@ -1,0 +1,71 @@
+@media (max-width : 480px) {
+  .jumbotron p, .card-body, .quote p, footer, .navbar-nav, .navbar-brand, .navbar-toggler-icon {
+    font-size: 14px;
+  }
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .card .fa-3x {
+  	font-size: 250%;
+  }
+  .gambar img {
+    width: 50%;
+  }
+  video {
+    width: 90% !important;
+  }
+  .fa-3x {
+    padding: 10px;
+  }
+  a img {
+    width: 80%;
+  }
+  h2.efek {
+    margin-top: 0 !important;
+  }
+  body {
+    position: absolute;
+    margin-right: 0 !important;
+  }
+}
+.fa-3x {
+  padding: 10px;
+}
+.img-thumbnail:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.jumbotron {
+  background-image: url(img/green1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.media {
+  background-image: url(img/space.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+.media video {
+  max-width: 480px !important;
+}
+.gambar img {
+  border: 2px solid white;
+  box-shadow: 2px 2px 2px #ccc;
+}
+.up {
+  position: absolute;
+  position: fixed;
+  right: 25px;
+  bottom: 60px;
+  border-radius: 50%;
+}
+.up i {
+  text-shadow: 0px 0px 3px white;
+}
